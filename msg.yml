@@ -1,0 +1,9 @@
+## MENU MESSAGE 
+menu: "🌹Welcome To #1 Bot\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Service 1 [Click Here](https://t.me/)\n┣★ Service 2 [Click Here](https://t.me/example2)\n┣★ Service 3 [Click Here](https://t.me/example3)\n┣★ Service 4 [Click Here](https://t.me/example4)\n┣★ Service 5 [Click Here](https://t.me/example5)\n┣★ Service 6 [Click Here](https://t.me/example6)\n┣★ Service 7 [Click Here](https://t.me/example7)\n┣★ Service 8 [Click Here](https://t.me/example8)\n┗━━━━━━━━━━━━━━━━━┛"
+
+
+## BUY MESSAGE 
+payMethod: "🌹 Below are supported payments methods. \n >> [Click Here](https://t.me/)"
+
+## CONTACT MESSAGE
+buy: "🌹 Hello, You can set your contact us message here\nWith ★ Emoji & [LINKS](https://t.me/) "
