@@ -9,4 +9,20 @@ API_HASH
 BOT_TOKEN
 OWNER_ID
 ```
-## 
+##OWNER CMD
+Owner can restart bot if needed with /reboot or reload, reboot re** any word starting with re will reLOAD the bot.
+
+/admin : This command is only for admin.\
+Admin can choose 2 settings.
+**BUTTON_TYPE**
+Type:  Is used to configure how the buttons will show 2 options are grid|list 
+Grid: All menu buttons in single line.\
+List: 1 menu in 1 line for if we have 3 menu it will show 3 lines.
+
+**BUTTON_MODE**
+Mode: We can display button/option in 3 ways we use inline|chat \
+Inline| Menu/Option Buttons will not be shown inside chat windows and always visible below the chat.\
+Chat| Show menu with in chat when user send /start command (not optimized better to use inline mode.)
+
+Every time owner change button bot will restart to apply new changes and config.py file is updated.\
+Note: `When deployed on heroku it will actually not work on bot dyno crash/restart default buttons will be used in config.py
