@@ -1,0 +1,128 @@
+{
+
+    "name": "Awesome Bot",
+
+    "description": "Someone's Awesome bot with menu",
+
+    "logo": "https://static8.tgstat.ru/channels/_0/6a/6a42937d056d608df1742d47f29a5900.jpg",
+
+    "keywords": [
+
+    "python3",
+
+    "telegram",
+
+    "bot",
+
+    "pyrogram"
+
+    ],
+
+    "env": {
+
+      "API_ID": {
+
+        "description": "Get this value from https://my.telegram.org",
+
+        "value": "",
+
+        "required": true
+
+      },
+
+      "API_HASH": {
+
+        "description": "Get this value from https://my.telegram.org",
+
+        "value": "",
+
+        "required": true
+
+      },
+
+      "BOT_TOKEN": {
+
+        "description": "A Bot's token from Botfather",
+
+        "value": "",
+
+        "required": true
+
+      },
+
+      "MONGO_DB_URI": {
+
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+
+        "value": "",
+
+        "required": true
+
+      },
+        
+
+      "OWNER_ID": {
+
+        "description": "The user id of user whom you would like to add as OWNER.",
+
+        "value": "",
+
+        "required": true
+
+      },
+
+      "WELCOME_MSG": {
+
+        "description": "Welcome message for new users. You can use HTML tags.",
+
+        "value": "",
+
+        "required": false
+
+      },
+
+      "CUSTOM_MSG": {
+
+        "description": "Message shown above the buttons.",
+
+        "value": "",
+
+        "required": false
+
+      },
+
+      "BUTTON_TYPE": {
+
+        "description": "Button type for the menu. grid or list.",
+
+        "value": "list",
+
+        "required": false
+
+      },
+
+      "BUTTON_MODE": {
+
+        "description": "Where show the buttons. inline or chat.",
+
+        "value": "inline",
+
+        "required": false
+
+      }
+
+    },
+
+    "buildpacks": [
+
+          {
+
+              "url": "heroku/python"
+
+          }
+
+      ],
+
+      "stack": "container"
+
+}
