@@ -24,7 +24,7 @@ CUSTOM_MSG  | Message show above buttons
 BUTTON_TYPE , BUTTON_MODE | Configure look and ui of bot check below for details.
 
 `msg.yml` : This file contains text that is show in 3 buttons. \
-You can edit message with custom font, emoji & link as below example.\
+You can edit message with custom font, emoji & link as below example
 ```
 MESSAGE TEXT  [LINK TEXT](https://t.me/line_here)
 ```
