@@ -20,7 +20,7 @@ run pip install -r r*.txt
 `config.py` This file contains all import data you use values in this file also can pass in .env.
 
 WELCOME_MSG | Message shown when user send /start message.\
-CUSTOM_MSG  | Message show above buttons 
+CUSTOM_MSG  | Message show above buttons \
 BUTTON_TYPE , BUTTON_MODE | Configure look and ui of bot check below for details.
 
 `msg.yml` : This file contains text that is show in 3 buttons. \
