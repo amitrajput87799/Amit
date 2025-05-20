@@ -1,2 +1,2 @@
 echo "Starting Bot..."
-python3 -m app.py
+python3 app.py

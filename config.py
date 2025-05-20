@@ -14,5 +14,5 @@ OWNER_USERNAME= os.getenv("OWNER_USERNAME", "owner_username")
 OWNER_ID= os.getenv("OWNER_ID", 544633527)
 WELCOME_MSG = os.getenv("WELCOME_MSG", "Welcome to the group! I'm here to assist you.")
 CUSTOM_MSG = os.getenv("CUSTOM_MSG", "Lets get started!\nI am #1 bot in the world\nI can serve you unlimited entertainment\n")
-BUTTON_TYPE = "grid"
+BUTTON_TYPE = "list"
 BUTTON_MODE = "inline"
