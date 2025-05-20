@@ -7,9 +7,9 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID=None
-API_HASH=None
-BOT_TOKEN= os.getenv("BOT_TOKEN", None)
+API_ID=24469836
+API_HASH="af2b67f144d86a69ffaf612df13e875d"
+BOT_TOKEN= os.getenv("BOT_TOKEN", "7528496902:AAHjZSzck4ZrCsAmiPN9ZJINrQQt51SFb24")
 OWNER_USERNAME= os.getenv("OWNER_USERNAME", "owner_username")
 OWNER_ID= os.getenv("OWNER_ID", 544633527)
 WELCOME_MSG = os.getenv("WELCOME_MSG", "Welcome to the group! I'm here to assist you.")
